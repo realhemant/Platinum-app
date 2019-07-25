@@ -1,0 +1,9 @@
+# [START runtime]
+runtime: nodejs8
+handlers:
+- url: /
+  static_files: dist/platinium-app-frontend/index.html
+  upload: dist/platinium-app-frontend/index.html
+- url: /
+  static_dir: dist/platinium-app-frontend/
+# [END runtime]
