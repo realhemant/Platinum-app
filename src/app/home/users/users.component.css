@@ -1,0 +1,119 @@
+#user-box{
+  margin-top: 80px;
+}
+.table-style{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: auto;
+    margin-top: 0px;
+}
+h2 {
+    text-align: center;
+  }
+  
+  table caption {
+      padding: .5em 0;
+  }
+  
+ 
+
+
+.div-height
+{
+    height: 40px;
+    width: 1px;
+    background-color: grey;
+    margin-left: 51px;
+    margin-top: -39px;
+}
+.user-text{
+    font-size: 24px;
+    margin-left: -31px;
+    margin-top: 22px;
+}
+.box-1{
+    height: 21px;
+    width: 19px;
+    background-color: red;
+    border-radius: 50%;
+    margin-top: 2px;
+    margin-left: 12px;
+}
+.box-2{
+    height: 21px;
+    width: 19px;
+    background-color: #067106;
+    border-radius: 50%;
+    margin-top: 2px;
+    margin-left: 12px;
+}
+.button-top{
+    margin-top: -49px;
+    /* width: 104px; */
+    border-radius: 54px;
+}
+.show-text
+{
+    font-size: 16px;
+    margin-top: 20px;
+    float: left;
+}
+.show-text-e
+{
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 10px;
+    float: left;
+}
+.dropdown-box
+{
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.search-box
+{
+    margin-top: 3px;
+    height: 30px;
+}
+.search-text{
+    margin-top: 22px;
+    margin-right: 11px;
+    margin-left: 491px;
+}
+ul.breadcrumb {
+    margin-top: -47px;
+    background-color: white;
+    margin-left: 57px;
+  }
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 15px;
+    margin-right: 20px;
+  }
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+  }
+  ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+  }
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+  }
+
+  @media screen and (max-width: 767px) {
+    table caption {
+      border-bottom: 1px solid #ddd;
+    }
+  }
+  
+  .p {
+    text-align: center;
+    padding-top: 140px;
+    font-size: 14px;
+  }
+
+  

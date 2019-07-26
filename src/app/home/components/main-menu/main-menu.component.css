@@ -1,0 +1,56 @@
+
+.body{
+    background-color: #37474F;
+    height: 75vh;
+    margin-top: 75px;
+}
+#viewport {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#content {
+  width: 100%;
+  position: relative;
+  margin-right: 0;
+}
+
+.sidebar {
+
+  background: #37474F;
+    
+}
+
+#sidebar header {
+  background-color: #263238;
+  font-size: 20px;
+  line-height: 52px;
+  text-align: center;
+}
+
+#sidebar header a {
+  color: #fff;
+ clear: both;
+}
+
+#sidebar header a:hover {
+  color: #fff;
+}
+#sidebar .nav a{
+    color: #CFD8DC;
+    padding: 4px 62px;
+    font-size: 22px;
+}
+
+#sidebar .nav a:hover{
+  background: none;
+  color: #ECEFF1;
+}
+.margin-top{
+    margin-top: 15px;
+}
+.margin-top-1{
+    margin-top: 10px;
+}

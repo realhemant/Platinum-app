@@ -6,9 +6,8 @@
   .login{
     height: 322px;
     width: 123%;
- 
     border-radius: 10px;
-    margin-left: 299px;
+    margin-left: 368px;
     margin-top: 160px;
   }
 .from-margin
@@ -44,7 +43,7 @@
 .link{
   float: left;
   margin-top: 41px;
-    margin-left: 75px;
+  margin-left: 135px;
 }
 
 .margin
@@ -54,8 +53,8 @@
 }
 .btn-color{
   background-color: #0970B9;
-    width: 370px;
-    margin-top: 5px;
+  width: 223%;
+  margin-top: 7px;
 }
 
 .body{

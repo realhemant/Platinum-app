@@ -3,42 +3,44 @@
 </div>
 <section id="login-box">
    <div class="container">
-      <div class="row"> 
-            <div class="col-md-5">
-                  <div class="row">
-                     <div class="col-md-12 login">
-                        <img src="../../assets/navino_trans.png" class="img-responsive text-navino">
-                
-                       <div class="link">
-                          <ul>
-                             <li>&nbsp;<a routerLink="../register">Signup</a></li>
-                             <li class="margin"><a routerLink="../login">Login</a></li>
-                          </ul>
-                           
-                       </div>
-                       
-                        <form class="from-margin">
-                          
-                           <input type="text" name="" class="form-control " placeholder="username">
-                           <div class="input-group-append">
-                            
-                           </div>
-                           <input type="password" name="" class="form-control input-margin" value="" placeholder="password">
-                           
-                        </form>
-                        <div class="btn-margin">
-                           <button type="button" name="button" class="btn btn-color login_btn">Login</button>
-                        </div>
-                        <div class="link-margin">
-                           <a href="#">Forgot your password?</a>
-                        </div>
+      <div class="row">
+         <div class="col-md-5">
+            <div class="row">
+               <div class="col-md-12 login">
+                  <img src="../../assets/navino_trans.png" class="img-responsive text-navino">
+
+                  <div class="link">
+                     <ul>
+                        <li>&nbsp;<a routerLink="../register">Signup</a></li>
+                        <li class="margin"><a routerLink="../login">Login</a></li>
+                     </ul>
+
+                  </div>
+
+                  <form class="from-margin" [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+
+                     <input type="text"  class="form-control " placeholder="username" formControlName="username"
+                        [ngClass]="{ 'is-invalid': submitted && f.username.errors }">
+                     <div class="input-group-append">
+
                      </div>
+                     <input type="password"  class="form-control input-margin"  placeholder="password"
+                        formControlName="password" [ngClass]="{ 'is-invalid': submitted && f.password.errors }">
+                        <div class="btn-margin">
+                           <button type="submit" name="button" class="btn btn-color login_btn">Login</button>
+                        </div>
+                  </form>
+                 
+                  <div class="link-margin">
+                     <a href="#">Forgot your password?</a>
                   </div>
                </div>
-            
+            </div>
+         </div>
+
       </div>
    </div>
 
 
-      
+
 </section>
